@@ -21,7 +21,7 @@
 <h4>Installation</h4>
 
 ```bash
-go install github.com/haq/faviqon@latest
+go install github.com/1hehaq/faviqon@latest
 ```
 
 <br>
@@ -56,7 +56,7 @@ cat urls.txt | faviqon -shodan
 
 ```bash
 # pipe to other tools for further processing
-shef -q $(echo https://github.com/ | ./faviqon -shodan)
+shef -q $(echo https://github.com/ | faviqon -shodan)
 ```
 
 <br>
